@@ -25,7 +25,7 @@ public class Create_JA {
 	    Job_Alert_Banner.JA_save_1(driver).click();
 	   
 	    try {
-			Thread.sleep(1000);
+			Thread.sleep(4000);
 		} catch (InterruptedException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
