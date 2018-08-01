@@ -15,12 +15,7 @@ public class Create_JA {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-	     try {
-				Thread.sleep(1000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+	   
 	    Job_Alert_Banner.JA_keyword_1(driver).sendKeys("C++");
 	    Job_Alert_Banner.JA_keyword_1(driver).sendKeys(Keys.ENTER);
 	    Select location1 =  new Select(POM.Job_Alert_Banner.JA_location_DropDown(driver));
