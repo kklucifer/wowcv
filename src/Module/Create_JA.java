@@ -23,7 +23,7 @@ public class Create_JA {
 	    Select salary1 = new Select(POM.Job_Alert_Banner.JA_Salary(driver));
 	    salary1.selectByIndex(1);	     
 	    Job_Alert_Banner.JA_save_1(driver).click();
-	    //update JA
+	   
 	    try {
 			Thread.sleep(1000);
 		} catch (InterruptedException e1) {
